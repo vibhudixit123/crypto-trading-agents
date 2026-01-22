@@ -1,0 +1,36 @@
+# Core Dependencies
+httpx>=0.27.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# CLI & UI
+typer[all]>=0.12.0
+rich>=13.7.0
+click>=8.1.7
+
+# Logging & Monitoring
+structlog>=24.1.0
+
+# Data Processing
+pyyaml>=6.0
+feedparser>=6.0.10
+
+# Async
+aiofiles>=23.2.1
+
+
+streamlit>=1.32.0
+plotly>=5.19.0
+pandas>=2.2.0
+
+# Optional - Observability
+langsmith>=0.1.0
+
+# Development (install with: pip install -e ".[dev]")
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+pytest-cov>=4.1.0
+black>=24.0.0
+ruff>=0.3.0
+mypy>=1.9.0
